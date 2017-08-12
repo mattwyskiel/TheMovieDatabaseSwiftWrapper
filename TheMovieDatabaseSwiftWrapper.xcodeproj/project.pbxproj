@@ -1,0 +1,800 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		"TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapperPackageTests::ProductTarget" /* TheMovieDatabaseSwiftWrapperPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_168 /* Build configuration list for PBXAggregateTarget "TheMovieDatabaseSwiftWrapperPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_171 /* PBXTargetDependency */,
+			);
+			name = TheMovieDatabaseSwiftWrapperPackageTests;
+			productName = TheMovieDatabaseSwiftWrapperPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		OBJ_101 /* Clent_Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_10 /* Clent_Discover.swift */; };
+		OBJ_102 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* Client.swift */; };
+		OBJ_103 /* Client_Certifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* Client_Certifications.swift */; };
+		OBJ_104 /* Client_Changes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* Client_Changes.swift */; };
+		OBJ_105 /* Client_Collections.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* Client_Collections.swift */; };
+		OBJ_106 /* Client_Companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* Client_Companies.swift */; };
+		OBJ_107 /* Client_Configuration.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_16 /* Client_Configuration.swift */; };
+		OBJ_108 /* Client_Credits.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_17 /* Client_Credits.swift */; };
+		OBJ_109 /* Client_Find.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_18 /* Client_Find.swift */; };
+		OBJ_110 /* Client_Genres.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* Client_Genres.swift */; };
+		OBJ_111 /* Client_Keywords.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_20 /* Client_Keywords.swift */; };
+		OBJ_112 /* Client_Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_21 /* Client_Lists.swift */; };
+		OBJ_113 /* Client_Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_22 /* Client_Movies.swift */; };
+		OBJ_114 /* Client_Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_23 /* Client_Networks.swift */; };
+		OBJ_115 /* Client_People.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* Client_People.swift */; };
+		OBJ_116 /* Client_Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Client_Review.swift */; };
+		OBJ_117 /* Client_Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_26 /* Client_Search.swift */; };
+		OBJ_118 /* Client_TV.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_27 /* Client_TV.swift */; };
+		OBJ_119 /* Client_TVSeasonsEpisodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_28 /* Client_TVSeasonsEpisodes.swift */; };
+		OBJ_120 /* Alternative_TitlesMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_30 /* Alternative_TitlesMDB.swift */; };
+		OBJ_121 /* CastCrewMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_31 /* CastCrewMDB.swift */; };
+		OBJ_122 /* CertificationMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_32 /* CertificationMDB.swift */; };
+		OBJ_123 /* ChangesMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_33 /* ChangesMDB.swift */; };
+		OBJ_124 /* CollectionsMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_34 /* CollectionsMDB.swift */; };
+		OBJ_125 /* CompaniesMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_35 /* CompaniesMDB.swift */; };
+		OBJ_126 /* ConfigurationMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_36 /* ConfigurationMDB.swift */; };
+		OBJ_127 /* CreditsMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_37 /* CreditsMDB.swift */; };
+		OBJ_128 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_39 /* Discover.swift */; };
+		OBJ_129 /* DiscoverMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_40 /* DiscoverMovie.swift */; };
+		OBJ_130 /* DiscoverTV.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_41 /* DiscoverTV.swift */; };
+		OBJ_131 /* ExternalIdsMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_42 /* ExternalIdsMDB.swift */; };
+		OBJ_132 /* FindMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_43 /* FindMDB.swift */; };
+		OBJ_133 /* GenresMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_44 /* GenresMDB.swift */; };
+		OBJ_134 /* ImagesMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_45 /* ImagesMDB.swift */; };
+		OBJ_135 /* KeywordsMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_46 /* KeywordsMDB.swift */; };
+		OBJ_136 /* ListsMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_47 /* ListsMDB.swift */; };
+		OBJ_137 /* MovieCreditsMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_48 /* MovieCreditsMDB.swift */; };
+		OBJ_138 /* MovieDetailedMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_49 /* MovieDetailedMDB.swift */; };
+		OBJ_139 /* MovieListMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_50 /* MovieListMDB.swift */; };
+		OBJ_140 /* MovieMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_51 /* MovieMDB.swift */; };
+		OBJ_141 /* MovieMDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_52 /* MovieMDBModel.swift */; };
+		OBJ_142 /* MovieReleaseDatesMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_53 /* MovieReleaseDatesMDB.swift */; };
+		OBJ_143 /* MovieReviewMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_54 /* MovieReviewMDB.swift */; };
+		OBJ_144 /* NetworksMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_55 /* NetworksMDB.swift */; };
+		OBJ_145 /* PageResultsMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_56 /* PageResultsMDB.swift */; };
+		OBJ_146 /* PersonMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_57 /* PersonMDB.swift */; };
+		OBJ_147 /* ReviewsMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_58 /* ReviewsMDB.swift */; };
+		OBJ_148 /* SearchMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_59 /* SearchMDB.swift */; };
+		OBJ_149 /* TVCreditsMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_60 /* TVCreditsMDB.swift */; };
+		OBJ_150 /* TVDetailedMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_61 /* TVDetailedMDB.swift */; };
+		OBJ_151 /* TVEpisodesMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_62 /* TVEpisodesMDB.swift */; };
+		OBJ_152 /* TVMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_63 /* TVMDB.swift */; };
+		OBJ_153 /* TVMDBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_64 /* TVMDBModel.swift */; };
+		OBJ_154 /* TVSeasonsMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_65 /* TVSeasonsMDB.swift */; };
+		OBJ_155 /* TranslationsMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_66 /* TranslationsMDB.swift */; };
+		OBJ_156 /* VideosMDB.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_67 /* VideosMDB.swift */; };
+		OBJ_157 /* ArrayObjectProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_69 /* ArrayObjectProtocol.swift */; };
+		OBJ_159 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */; };
+		OBJ_165 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_77 /* SwiftyJSON.swift */; };
+		OBJ_87 /* MovieMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_72 /* MovieMDBTests.swift */; };
+		OBJ_88 /* TMDBSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_73 /* TMDBSwiftTests.swift */; };
+		OBJ_89 /* TheMovieDatabaseSwiftWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_74 /* TheMovieDatabaseSwiftWrapperTests.swift */; };
+		OBJ_91 /* TheMovieDatabaseSwiftWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapper::Product" /* TheMovieDatabaseSwiftWrapper.framework */; };
+		OBJ_92 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A43326AD1F3E386D0044438C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftyJSON::SwiftyJSON";
+			remoteInfo = SwiftyJSON;
+		};
+		A43326AE1F3E386D0044438C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapper";
+			remoteInfo = TheMovieDatabaseSwiftWrapper;
+		};
+		A43326AF1F3E386D0044438C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftyJSON::SwiftyJSON";
+			remoteInfo = SwiftyJSON;
+		};
+		A43326B01F3E386E0044438C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapperTests";
+			remoteInfo = TheMovieDatabaseSwiftWrapperTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		OBJ_10 /* Clent_Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clent_Discover.swift; sourceTree = "<group>"; };
+		OBJ_11 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		OBJ_12 /* Client_Certifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Certifications.swift; sourceTree = "<group>"; };
+		OBJ_13 /* Client_Changes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Changes.swift; sourceTree = "<group>"; };
+		OBJ_14 /* Client_Collections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Collections.swift; sourceTree = "<group>"; };
+		OBJ_15 /* Client_Companies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Companies.swift; sourceTree = "<group>"; };
+		OBJ_16 /* Client_Configuration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Configuration.swift; sourceTree = "<group>"; };
+		OBJ_17 /* Client_Credits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Credits.swift; sourceTree = "<group>"; };
+		OBJ_18 /* Client_Find.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Find.swift; sourceTree = "<group>"; };
+		OBJ_19 /* Client_Genres.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Genres.swift; sourceTree = "<group>"; };
+		OBJ_20 /* Client_Keywords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Keywords.swift; sourceTree = "<group>"; };
+		OBJ_21 /* Client_Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Lists.swift; sourceTree = "<group>"; };
+		OBJ_22 /* Client_Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Movies.swift; sourceTree = "<group>"; };
+		OBJ_23 /* Client_Networks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Networks.swift; sourceTree = "<group>"; };
+		OBJ_24 /* Client_People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_People.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Client_Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Review.swift; sourceTree = "<group>"; };
+		OBJ_26 /* Client_Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_Search.swift; sourceTree = "<group>"; };
+		OBJ_27 /* Client_TV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_TV.swift; sourceTree = "<group>"; };
+		OBJ_28 /* Client_TVSeasonsEpisodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client_TVSeasonsEpisodes.swift; sourceTree = "<group>"; };
+		OBJ_30 /* Alternative_TitlesMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alternative_TitlesMDB.swift; sourceTree = "<group>"; };
+		OBJ_31 /* CastCrewMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CastCrewMDB.swift; sourceTree = "<group>"; };
+		OBJ_32 /* CertificationMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CertificationMDB.swift; sourceTree = "<group>"; };
+		OBJ_33 /* ChangesMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangesMDB.swift; sourceTree = "<group>"; };
+		OBJ_34 /* CollectionsMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsMDB.swift; sourceTree = "<group>"; };
+		OBJ_35 /* CompaniesMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesMDB.swift; sourceTree = "<group>"; };
+		OBJ_36 /* ConfigurationMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationMDB.swift; sourceTree = "<group>"; };
+		OBJ_37 /* CreditsMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsMDB.swift; sourceTree = "<group>"; };
+		OBJ_39 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
+		OBJ_40 /* DiscoverMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverMovie.swift; sourceTree = "<group>"; };
+		OBJ_41 /* DiscoverTV.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverTV.swift; sourceTree = "<group>"; };
+		OBJ_42 /* ExternalIdsMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExternalIdsMDB.swift; sourceTree = "<group>"; };
+		OBJ_43 /* FindMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMDB.swift; sourceTree = "<group>"; };
+		OBJ_44 /* GenresMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresMDB.swift; sourceTree = "<group>"; };
+		OBJ_45 /* ImagesMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesMDB.swift; sourceTree = "<group>"; };
+		OBJ_46 /* KeywordsMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeywordsMDB.swift; sourceTree = "<group>"; };
+		OBJ_47 /* ListsMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsMDB.swift; sourceTree = "<group>"; };
+		OBJ_48 /* MovieCreditsMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCreditsMDB.swift; sourceTree = "<group>"; };
+		OBJ_49 /* MovieDetailedMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailedMDB.swift; sourceTree = "<group>"; };
+		OBJ_50 /* MovieListMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListMDB.swift; sourceTree = "<group>"; };
+		OBJ_51 /* MovieMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMDB.swift; sourceTree = "<group>"; };
+		OBJ_52 /* MovieMDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMDBModel.swift; sourceTree = "<group>"; };
+		OBJ_53 /* MovieReleaseDatesMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReleaseDatesMDB.swift; sourceTree = "<group>"; };
+		OBJ_54 /* MovieReviewMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieReviewMDB.swift; sourceTree = "<group>"; };
+		OBJ_55 /* NetworksMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworksMDB.swift; sourceTree = "<group>"; };
+		OBJ_56 /* PageResultsMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageResultsMDB.swift; sourceTree = "<group>"; };
+		OBJ_57 /* PersonMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonMDB.swift; sourceTree = "<group>"; };
+		OBJ_58 /* ReviewsMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsMDB.swift; sourceTree = "<group>"; };
+		OBJ_59 /* SearchMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMDB.swift; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_60 /* TVCreditsMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCreditsMDB.swift; sourceTree = "<group>"; };
+		OBJ_61 /* TVDetailedMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVDetailedMDB.swift; sourceTree = "<group>"; };
+		OBJ_62 /* TVEpisodesMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVEpisodesMDB.swift; sourceTree = "<group>"; };
+		OBJ_63 /* TVMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMDB.swift; sourceTree = "<group>"; };
+		OBJ_64 /* TVMDBModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMDBModel.swift; sourceTree = "<group>"; };
+		OBJ_65 /* TVSeasonsMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVSeasonsMDB.swift; sourceTree = "<group>"; };
+		OBJ_66 /* TranslationsMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationsMDB.swift; sourceTree = "<group>"; };
+		OBJ_67 /* VideosMDB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosMDB.swift; sourceTree = "<group>"; };
+		OBJ_69 /* ArrayObjectProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayObjectProtocol.swift; sourceTree = "<group>"; };
+		OBJ_72 /* MovieMDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieMDBTests.swift; sourceTree = "<group>"; };
+		OBJ_73 /* TMDBSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TMDBSwiftTests.swift; sourceTree = "<group>"; };
+		OBJ_74 /* TheMovieDatabaseSwiftWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMovieDatabaseSwiftWrapperTests.swift; sourceTree = "<group>"; };
+		OBJ_77 /* SwiftyJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		"SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapper::Product" /* TheMovieDatabaseSwiftWrapper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = TheMovieDatabaseSwiftWrapper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapperTests::Product" /* TheMovieDatabaseSwiftWrapperTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = TheMovieDatabaseSwiftWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_159 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_166 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_91 /* TheMovieDatabaseSwiftWrapper.framework in Frameworks */,
+				OBJ_92 /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		OBJ_29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_30 /* Alternative_TitlesMDB.swift */,
+				OBJ_31 /* CastCrewMDB.swift */,
+				OBJ_32 /* CertificationMDB.swift */,
+				OBJ_33 /* ChangesMDB.swift */,
+				OBJ_34 /* CollectionsMDB.swift */,
+				OBJ_35 /* CompaniesMDB.swift */,
+				OBJ_36 /* ConfigurationMDB.swift */,
+				OBJ_37 /* CreditsMDB.swift */,
+				OBJ_38 /* Discover */,
+				OBJ_42 /* ExternalIdsMDB.swift */,
+				OBJ_43 /* FindMDB.swift */,
+				OBJ_44 /* GenresMDB.swift */,
+				OBJ_45 /* ImagesMDB.swift */,
+				OBJ_46 /* KeywordsMDB.swift */,
+				OBJ_47 /* ListsMDB.swift */,
+				OBJ_48 /* MovieCreditsMDB.swift */,
+				OBJ_49 /* MovieDetailedMDB.swift */,
+				OBJ_50 /* MovieListMDB.swift */,
+				OBJ_51 /* MovieMDB.swift */,
+				OBJ_52 /* MovieMDBModel.swift */,
+				OBJ_53 /* MovieReleaseDatesMDB.swift */,
+				OBJ_54 /* MovieReviewMDB.swift */,
+				OBJ_55 /* NetworksMDB.swift */,
+				OBJ_56 /* PageResultsMDB.swift */,
+				OBJ_57 /* PersonMDB.swift */,
+				OBJ_58 /* ReviewsMDB.swift */,
+				OBJ_59 /* SearchMDB.swift */,
+				OBJ_60 /* TVCreditsMDB.swift */,
+				OBJ_61 /* TVDetailedMDB.swift */,
+				OBJ_62 /* TVEpisodesMDB.swift */,
+				OBJ_63 /* TVMDB.swift */,
+				OBJ_64 /* TVMDBModel.swift */,
+				OBJ_65 /* TVSeasonsMDB.swift */,
+				OBJ_66 /* TranslationsMDB.swift */,
+				OBJ_67 /* VideosMDB.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		OBJ_38 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_39 /* Discover.swift */,
+				OBJ_40 /* DiscoverMovie.swift */,
+				OBJ_41 /* DiscoverTV.swift */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_70 /* Tests */,
+				OBJ_75 /* Dependencies */,
+				OBJ_78 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_68 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_69 /* ArrayObjectProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_8 /* TheMovieDatabaseSwiftWrapper */,
+			);
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_70 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_71 /* TheMovieDatabaseSwiftWrapperTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_71 /* TheMovieDatabaseSwiftWrapperTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_72 /* MovieMDBTests.swift */,
+				OBJ_73 /* TMDBSwiftTests.swift */,
+				OBJ_74 /* TheMovieDatabaseSwiftWrapperTests.swift */,
+			);
+			name = TheMovieDatabaseSwiftWrapperTests;
+			path = Tests/TheMovieDatabaseSwiftWrapperTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_75 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_76 /* SwiftyJSON 3.1.4 */,
+			);
+			name = Dependencies;
+			sourceTree = "<group>";
+		};
+		OBJ_76 /* SwiftyJSON 3.1.4 */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_77 /* SwiftyJSON.swift */,
+			);
+			name = "SwiftyJSON 3.1.4";
+			path = ".build/checkouts/SwiftyJSON-3802723480711899616/Source";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapperTests::Product" /* TheMovieDatabaseSwiftWrapperTests.xctest */,
+				"TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapper::Product" /* TheMovieDatabaseSwiftWrapper.framework */,
+				"SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_8 /* TheMovieDatabaseSwiftWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* Client */,
+				OBJ_29 /* Models */,
+				OBJ_68 /* Protocols */,
+			);
+			name = TheMovieDatabaseSwiftWrapper;
+			path = Sources/TheMovieDatabaseSwiftWrapper;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* Clent_Discover.swift */,
+				OBJ_11 /* Client.swift */,
+				OBJ_12 /* Client_Certifications.swift */,
+				OBJ_13 /* Client_Changes.swift */,
+				OBJ_14 /* Client_Collections.swift */,
+				OBJ_15 /* Client_Companies.swift */,
+				OBJ_16 /* Client_Configuration.swift */,
+				OBJ_17 /* Client_Credits.swift */,
+				OBJ_18 /* Client_Find.swift */,
+				OBJ_19 /* Client_Genres.swift */,
+				OBJ_20 /* Client_Keywords.swift */,
+				OBJ_21 /* Client_Lists.swift */,
+				OBJ_22 /* Client_Movies.swift */,
+				OBJ_23 /* Client_Networks.swift */,
+				OBJ_24 /* Client_People.swift */,
+				OBJ_25 /* Client_Review.swift */,
+				OBJ_26 /* Client_Search.swift */,
+				OBJ_27 /* Client_TV.swift */,
+				OBJ_28 /* Client_TVSeasonsEpisodes.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		"SwiftyJSON::SwiftyJSON" /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_161 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				OBJ_164 /* Sources */,
+				OBJ_166 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = "SwiftyJSON::SwiftyJSON::Product" /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapper" /* TheMovieDatabaseSwiftWrapper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_97 /* Build configuration list for PBXNativeTarget "TheMovieDatabaseSwiftWrapper" */;
+			buildPhases = (
+				OBJ_100 /* Sources */,
+				OBJ_158 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_160 /* PBXTargetDependency */,
+			);
+			name = TheMovieDatabaseSwiftWrapper;
+			productName = TheMovieDatabaseSwiftWrapper;
+			productReference = "TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapper::Product" /* TheMovieDatabaseSwiftWrapper.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapperTests" /* TheMovieDatabaseSwiftWrapperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_83 /* Build configuration list for PBXNativeTarget "TheMovieDatabaseSwiftWrapperTests" */;
+			buildPhases = (
+				OBJ_86 /* Sources */,
+				OBJ_90 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_93 /* PBXTargetDependency */,
+				OBJ_95 /* PBXTargetDependency */,
+			);
+			name = TheMovieDatabaseSwiftWrapperTests;
+			productName = TheMovieDatabaseSwiftWrapperTests;
+			productReference = "TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapperTests::Product" /* TheMovieDatabaseSwiftWrapperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "TheMovieDatabaseSwiftWrapper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				"TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapperTests" /* TheMovieDatabaseSwiftWrapperTests */,
+				"TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapper" /* TheMovieDatabaseSwiftWrapper */,
+				"SwiftyJSON::SwiftyJSON" /* SwiftyJSON */,
+				"TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapperPackageTests::ProductTarget" /* TheMovieDatabaseSwiftWrapperPackageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_101 /* Clent_Discover.swift in Sources */,
+				OBJ_102 /* Client.swift in Sources */,
+				OBJ_103 /* Client_Certifications.swift in Sources */,
+				OBJ_104 /* Client_Changes.swift in Sources */,
+				OBJ_105 /* Client_Collections.swift in Sources */,
+				OBJ_106 /* Client_Companies.swift in Sources */,
+				OBJ_107 /* Client_Configuration.swift in Sources */,
+				OBJ_108 /* Client_Credits.swift in Sources */,
+				OBJ_109 /* Client_Find.swift in Sources */,
+				OBJ_110 /* Client_Genres.swift in Sources */,
+				OBJ_111 /* Client_Keywords.swift in Sources */,
+				OBJ_112 /* Client_Lists.swift in Sources */,
+				OBJ_113 /* Client_Movies.swift in Sources */,
+				OBJ_114 /* Client_Networks.swift in Sources */,
+				OBJ_115 /* Client_People.swift in Sources */,
+				OBJ_116 /* Client_Review.swift in Sources */,
+				OBJ_117 /* Client_Search.swift in Sources */,
+				OBJ_118 /* Client_TV.swift in Sources */,
+				OBJ_119 /* Client_TVSeasonsEpisodes.swift in Sources */,
+				OBJ_120 /* Alternative_TitlesMDB.swift in Sources */,
+				OBJ_121 /* CastCrewMDB.swift in Sources */,
+				OBJ_122 /* CertificationMDB.swift in Sources */,
+				OBJ_123 /* ChangesMDB.swift in Sources */,
+				OBJ_124 /* CollectionsMDB.swift in Sources */,
+				OBJ_125 /* CompaniesMDB.swift in Sources */,
+				OBJ_126 /* ConfigurationMDB.swift in Sources */,
+				OBJ_127 /* CreditsMDB.swift in Sources */,
+				OBJ_128 /* Discover.swift in Sources */,
+				OBJ_129 /* DiscoverMovie.swift in Sources */,
+				OBJ_130 /* DiscoverTV.swift in Sources */,
+				OBJ_131 /* ExternalIdsMDB.swift in Sources */,
+				OBJ_132 /* FindMDB.swift in Sources */,
+				OBJ_133 /* GenresMDB.swift in Sources */,
+				OBJ_134 /* ImagesMDB.swift in Sources */,
+				OBJ_135 /* KeywordsMDB.swift in Sources */,
+				OBJ_136 /* ListsMDB.swift in Sources */,
+				OBJ_137 /* MovieCreditsMDB.swift in Sources */,
+				OBJ_138 /* MovieDetailedMDB.swift in Sources */,
+				OBJ_139 /* MovieListMDB.swift in Sources */,
+				OBJ_140 /* MovieMDB.swift in Sources */,
+				OBJ_141 /* MovieMDBModel.swift in Sources */,
+				OBJ_142 /* MovieReleaseDatesMDB.swift in Sources */,
+				OBJ_143 /* MovieReviewMDB.swift in Sources */,
+				OBJ_144 /* NetworksMDB.swift in Sources */,
+				OBJ_145 /* PageResultsMDB.swift in Sources */,
+				OBJ_146 /* PersonMDB.swift in Sources */,
+				OBJ_147 /* ReviewsMDB.swift in Sources */,
+				OBJ_148 /* SearchMDB.swift in Sources */,
+				OBJ_149 /* TVCreditsMDB.swift in Sources */,
+				OBJ_150 /* TVDetailedMDB.swift in Sources */,
+				OBJ_151 /* TVEpisodesMDB.swift in Sources */,
+				OBJ_152 /* TVMDB.swift in Sources */,
+				OBJ_153 /* TVMDBModel.swift in Sources */,
+				OBJ_154 /* TVSeasonsMDB.swift in Sources */,
+				OBJ_155 /* TranslationsMDB.swift in Sources */,
+				OBJ_156 /* VideosMDB.swift in Sources */,
+				OBJ_157 /* ArrayObjectProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_164 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_165 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_87 /* MovieMDBTests.swift in Sources */,
+				OBJ_88 /* TMDBSwiftTests.swift in Sources */,
+				OBJ_89 /* TheMovieDatabaseSwiftWrapperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftyJSON::SwiftyJSON" /* SwiftyJSON */;
+			targetProxy = A43326AD1F3E386D0044438C /* PBXContainerItemProxy */;
+		};
+		OBJ_171 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapperTests" /* TheMovieDatabaseSwiftWrapperTests */;
+			targetProxy = A43326B01F3E386E0044438C /* PBXContainerItemProxy */;
+		};
+		OBJ_93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "TheMovieDatabaseSwiftWrapper::TheMovieDatabaseSwiftWrapper" /* TheMovieDatabaseSwiftWrapper */;
+			targetProxy = A43326AE1F3E386D0044438C /* PBXContainerItemProxy */;
+		};
+		OBJ_95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftyJSON::SwiftyJSON" /* SwiftyJSON */;
+			targetProxy = A43326AF1F3E386D0044438C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TheMovieDatabaseSwiftWrapper.xcodeproj/SwiftyJSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyJSON;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = SwiftyJSON;
+			};
+			name = Debug;
+		};
+		OBJ_163 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TheMovieDatabaseSwiftWrapper.xcodeproj/SwiftyJSON_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyJSON;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = SwiftyJSON;
+			};
+			name = Release;
+		};
+		OBJ_169 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_170 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+		OBJ_84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TheMovieDatabaseSwiftWrapper.xcodeproj/TheMovieDatabaseSwiftWrapperTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = TheMovieDatabaseSwiftWrapperTests;
+			};
+			name = Debug;
+		};
+		OBJ_85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TheMovieDatabaseSwiftWrapper.xcodeproj/TheMovieDatabaseSwiftWrapperTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = TheMovieDatabaseSwiftWrapperTests;
+			};
+			name = Release;
+		};
+		OBJ_98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TheMovieDatabaseSwiftWrapper.xcodeproj/TheMovieDatabaseSwiftWrapper_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = TheMovieDatabaseSwiftWrapper;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = TheMovieDatabaseSwiftWrapper;
+			};
+			name = Debug;
+		};
+		OBJ_99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TheMovieDatabaseSwiftWrapper.xcodeproj/TheMovieDatabaseSwiftWrapper_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = TheMovieDatabaseSwiftWrapper;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = TheMovieDatabaseSwiftWrapper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_161 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_162 /* Debug */,
+				OBJ_163 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_168 /* Build configuration list for PBXAggregateTarget "TheMovieDatabaseSwiftWrapperPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_169 /* Debug */,
+				OBJ_170 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "TheMovieDatabaseSwiftWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_83 /* Build configuration list for PBXNativeTarget "TheMovieDatabaseSwiftWrapperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_84 /* Debug */,
+				OBJ_85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_97 /* Build configuration list for PBXNativeTarget "TheMovieDatabaseSwiftWrapper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_98 /* Debug */,
+				OBJ_99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
